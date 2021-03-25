@@ -236,17 +236,9 @@ button {
 	color: #000000;
 }
 
-/* .cards {
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
-	flex-wrap: wrap;
-} */
 .cards {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	/* justify-content: space-between;
-	flex-wrap: wrap; */
 	gap: 30px;
 }
 
