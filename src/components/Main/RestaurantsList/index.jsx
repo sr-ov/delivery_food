@@ -11,7 +11,7 @@ function RestaurantsList({ value, valueDebounce, menuSearch, restaurantsList, in
 
 			{!valueDebounce ? <Cards data={restaurantsList} /> : <SearchMenu data={menuSearch} />}
 
-			{valueDebounce && !menuSearch.length ? <p className="not">Ничего не найдено</p> : null}
+			{(valueDebounce && !menuSearch.length) && <p className="not">Ничего не найдено</p>}
 		</section>
 	)
 }
