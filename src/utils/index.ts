@@ -1,0 +1,1 @@
+export { removeExtJson } from './removeExtJson'
